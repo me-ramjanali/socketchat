@@ -1,0 +1,23 @@
+{
+  "name": "sockchat",
+  "version": "1.0.0",
+  "description": "Simple chat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ramjan ALi",
+  "license": "ISC",
+  "devDependencies": {
+  	"babel-core" : "5.8.*",
+    "babel-loader" : "5.3.*",
+  	"webpack": "*"
+  },
+  "dependencies": {
+  	"react": "*",
+  	"react-dom": "*",
+  	"express": "*",
+  	"socket.io": "*",
+  	"socket.io-client": "*"
+  }
+}
